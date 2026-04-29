@@ -1,19 +1,19 @@
 {
-  "name": "canva-dekstop",
+  "name": "app-dekstop",
   "version": "0.0.1",
   "author": {
     "name": "zaltechdev",
     "email": "hanifzalfa910@gmail.com"
   },
-  "description": "Canva on Desktop App",
+  "description": "My Desktop App from Website",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder"
   },
   "build": {
-    "appId": "com.zaltechdev-blackboxai.app",
-    "productName": "Canva Desktop",
+    "appId": "com.mydesktop.app",
+    "productName": "MyAppDesktop",
     "win": {
       "target": "nsis",
       "icon": "build/favicon.ico"
